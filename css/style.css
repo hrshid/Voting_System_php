@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.new-user {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.new-user a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.new-user a:hover {
+    text-decoration: underline;
+}

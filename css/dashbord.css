@@ -1,0 +1,82 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        
+    }
+
+    #mainpanel {
+        padding: 10px;
+    }
+
+    #headerselection {
+        background-color: #3e3d3d;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        position: relative;
+    }
+
+    #headerselection h1 {
+        margin: 0;
+    }
+
+    #backbtn, #logoutbtn {
+        position: absolute;
+        top: 15px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+
+    #backbtn {
+        left: 15px;
+    }
+
+    #logoutbtn {
+        right: 15px;
+    }
+
+    #profile {
+        margin: 30px auto;
+        margin-left: 20px;
+        width: 40%;
+        padding: 20px;
+        background-color: #3e3d3d;
+        color: #f4f4f4;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 8px;
+    }
+     #group {
+        margin: 30px auto;
+        margin-right: 10px;
+        margin-top: -458px;
+        width: 50%;
+        padding: 20px;
+        background-color: #3e3d3d;
+        color: #f4f4f4;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 8px;
+    }
+
+
+    hr {
+        margin: 0;
+        border: 1px solid #ccc;
+    }
+    #votebtn {
+        top: 15px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 4px;
+    }
